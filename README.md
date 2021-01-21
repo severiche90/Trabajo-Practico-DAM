@@ -12,10 +12,10 @@ Docente:
 
 ## Índice de contenidos
 
-1. [Introducción general](#introducción)
-2. [Instalación de dependencias](#instalación-de-dependencias)
-3. [Ejecución de la aplicación](#ejecución-de-la-aplicación)
-4. [Licencia](#licencia)
+1. Introducción 
+2. Instalación de dependencias
+3. Ejecución de la aplicacion
+4. Licencia
 
 ## Introducción general
 
@@ -50,7 +50,7 @@ En este caso será necesario instalar primero Node.js seguiendo la [página de d
 
 Una vez que se han instaladas todas las dependencias se podrá ejecutar la aplicación. Para ello, se deberá descargar éste repositorio con el siguiente comando desde una terminal:
 
-         git clone https://github.com/severiche90/TP-DAM.git
+         git clone https://github.com/severiche90/tp_dam.git
 
 Para inicializar el contenedor, primero se debe acceder al directorio donde se descargó el repositorio.
 
