@@ -17,7 +17,7 @@ Docente:
 3. Ejecución de la aplicacion
 4. Licencia
 
-## Introducción general
+## Introducción 
 
 El presente trabajo práctico final de la materia Desarrollo de Aplicaciones Multiplataforma tiene por objetivo el desarrollo de una aplicación que permite controlar un sistema de riego automatizado. Para el desarrollo de esta aplicacion se baso en los conceptos vistos en la materia para implementar una aplicación utilizando como base el framework de Angular para diseñar una página web y mediante el framework Ionic transformarla en una aplicación para dispositivos móviles.
 
@@ -33,12 +33,12 @@ Para ello debera tenera en cuenta que:
 
     $ npm install -g @ionic/cli
 
-Ya instalado Ionic, esta aplicación hace uso de la biblioteca **Highcharts** para mostrar el gráfico de cada uno de los sensores. Es por eso que seguramente sea necesario instalarlo con el siguiente comando:
+Una vez instalado Ionic, esta aplicacion requiere es uso de la biblioteca **Highcharts** para mostrar el gráfico de cada uno de los sensores, debara instalarlo con el siguiente comando:
 
     $ npm install highcharts --save
 
 
-**Si ustes no cuenta con Node.js instalado con anterioridad**, en este caso será necesario instalar primero Node.js seguiendo la [página de descargas oficial](https://nodejs.org/en/). Una vez finalizada la instalación, se podrán seguir los pasos de la sección anterior para instalar Ionic.
+**Si ustes no cuenta con Node.js instalado con anterioridad**, en este caso será necesario instalar primero **Node.js** desde la [página de descargas oficial](https://nodejs.org/en/). Una vez finalizada la instalación, se podrán seguir los pasos de la sección anterior para instalar Ionic.
 
 
 
@@ -67,11 +67,11 @@ docker-compose up
 
 ### Inicialización del "frontend"
 
-Para mostrar la aplicación a través de una pestaña de un explorador web, se necesita acceder al siguiente directorio
+Para mostrar la aplicación a través de una pestaña de un explorador web, se necesita acceder desde una terminal al siguiente directorio
 
     cd front
 
-Y ejecutar el siguiente comando.
+una vez que este en directorio front, ejecutar el siguiente comando:
 
     ionic serve
 
