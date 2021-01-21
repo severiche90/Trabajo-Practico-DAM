@@ -19,17 +19,17 @@ Docente:
 
 ## Introducción general
 
-El presente trabajo práctico final de la materia **Desarrollo de Aplicaciones Multiplataforma** tiene por objetivo el desarrollo de una aplicación que permite controlar un sistema de riego automatizado. Para el desarrollo de esta aplicacion se baso en los conceptos vistos en la materia para implementar una aplicación utilizando como base el framework **Angular** para diseñar una página web y mediante el framework **Ionic** transformarla en una aplicación para dispositivos móviles.
+El presente trabajo práctico final de la materia Desarrollo de Aplicaciones Multiplataforma tiene por objetivo el desarrollo de una aplicación que permite controlar un sistema de riego automatizado. Para el desarrollo de esta aplicacion se baso en los conceptos vistos en la materia para implementar una aplicación utilizando como base el framework de Angular para diseñar una página web y mediante el framework Ionic transformarla en una aplicación para dispositivos móviles.
 
 ## Instalación de dependencias
 
-Para poder ejecutar el "backend" de la aplicación se debe tener instalado Docker, ya que la aplicación fue desarrollada sobre un contenedor Docker, motivo por el cual es necesario instalar algunas dependencias antes de poder ejecutarla. Antes de realizar los siguientes pasos es necesario tener instalado Docker y Docker Compose. En la documentación oficial de Docker y de Docker Compose están los pasos para instalar las herramientas en todas las plataformas.
+Para poder ejecutar el "backend" de la aplicación se debe tener instalado Docker, ya que la aplicación fue desarrollada sobre un contenedor Docker, motivo por el cual es necesario instalar algunas dependencias antes de poder ejecutarla. Antes de realizar los siguientes pasos es necesario tener instalado [Docker](https://docs.docker.com/engine/install/ubuntu/) y [Docker Compose](https://docs.docker.com/compose/install/). En la documentación oficial de Docker y de Docker Compose están los pasos para instalar las herramientas en todas las plataformas.
 
-Por otro lado, para ejecutar la aplicación del "frontend" se requiere tener instalado el framework Ionic. Se diferencian dos situaciones.
+Para ejecutar la aplicación del "frontend" se requiere tener instalado el framework Ionic. 
 
-### Node.js instalado con anterioridad
+Para ello debera tenera en cuenta que:
 
-Si su computadora cuenta con Node.js instalado, seguramente cuente con el instalador **npm** que viene incluído por defecto, por lo que basta con ejecutar el siguiente comando para instalar el framework completo:
+**Si su computadora cuenta con Node.js instalado**, seguramente cuente con el instalador npm que viene incluído por defecto, por lo que basta con ejecutar el siguiente comando para instalar el framework de Ionic completo:
 
     $ npm install -g @ionic/cli
 
@@ -38,9 +38,7 @@ Ya instalado Ionic, esta aplicación hace uso de la biblioteca **Highcharts** pa
     $ npm install highcharts --save
 
 
-### Node.js no instalado con anterioridad
-
-En este caso será necesario instalar primero Node.js seguiendo la [página de descargas oficial](https://nodejs.org/en/). Una vez finalizada la instalación, se podrán seguir los pasos de la sección anterior para instalar Ionic.
+**Si ustes no cuenta con Node.js instalado con anterioridad**, en este caso será necesario instalar primero Node.js seguiendo la [página de descargas oficial](https://nodejs.org/en/). Una vez finalizada la instalación, se podrán seguir los pasos de la sección anterior para instalar Ionic.
 
 
 
@@ -50,17 +48,17 @@ En este caso será necesario instalar primero Node.js seguiendo la [página de d
 
 Una vez que se han instaladas todas las dependencias se podrá ejecutar la aplicación. Para ello, se deberá descargar éste repositorio con el siguiente comando desde una terminal:
 
-         git clone https://github.com/severiche90/tp_dam.git
+        $ git clone https://github.com/severiche90/tp_dam.git
 
-Para inicializar el contenedor, primero se debe acceder al directorio donde se descargó el repositorio.
+Para inicializar el contenedor, primero se debe acceder desde la terminal al directorio donde se descargó el repositorio ejecutando el siguiente comando:
 
          cd back
 
-Luego ejecutar el siguiente comando.
+Luego ejecutar el siguiente comando:
 
          docker-compose up
 
-Una vez iniciado, ya se contará una la API en funcionamiento. Para cerrar el contenedor, se puede correr el comando ``docker-compose down`` desde otra terminal o bien utilizar el shortcut ``Ctrl+C``, obteniendo el mismo resultado.
+Una vez iniciado, ya se contará una la API en funcionamiento. Para cerrar el contenedor, se puede correr el comando ``docker-compose down`` desde otra terminal o bien presionar las teclas ``Ctrl+C``, obteniendo el mismo resultado.
 
 NOTA: Puede suceder que la primera vez nodeJS no se pueda conectar a la base de datos, si esto sucede ejecutar
 
